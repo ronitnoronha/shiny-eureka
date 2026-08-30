@@ -21,4 +21,6 @@ joblib.dump(model,"telecom_tower_model.pkl")
 metrics={"accuracy":accuracy}
 with open("metrics.json","w") as f:
     json.dump(metrics,f,indent=4)
+print("Training Started...")
 print("Training Completed Successfully")
+
